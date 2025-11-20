@@ -20,6 +20,5 @@ public class asg9b {
             throw e; //rethrowing the caught exception
         }
         
-        
     }
 }

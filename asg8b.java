@@ -37,3 +37,32 @@ public class asg8b {
         ob.displayNum();
     }
 }
+
+/*
+String hex = "";
+int val = n;
+char hexDigits[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
+if (val == 0) hex = "0";
+else {
+    while (val > 0) {
+        int rem = val % 16;
+        hex = hexDigits[rem] + hex;
+        val /= 16;
+    }
+}
+System.out.println("Hex value: " + hex); 
+
+
+String oct = "";
+val = n; // reset val to original number
+char octDigits[] = {'0', '1', '2', '3', '4', '5', '6', '7'};
+
+if (val == 0) {
+    oct = "0";
+} else {
+    while (val > 0) {
+        int rem = val % 8;
+        oct = octDigits[rem] + oct;  // prepend the digit
+        val /= 8;
+            }
+        }*/
